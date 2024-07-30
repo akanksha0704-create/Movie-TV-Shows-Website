@@ -1,0 +1,31 @@
+body {
+  background-color: #1c1c1c; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+  font-family: Arial, sans-serif;
+}
+
+.styled-image {
+  width: 150px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.styled-image:hover {
+  -webkit-box-shadow: 4px -1px 26px -4px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 4px -1px 26px -4px rgba(0, 0, 0, 0.75);
+  box-shadow: 4px -1px 26px -4px rgba(0, 0, 0, 0.75);
+}
+#image-render {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.head {
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 2px 2px rgb(179, 172, 172);
+}
+.form-event {
+  margin: 2rem;
+}
